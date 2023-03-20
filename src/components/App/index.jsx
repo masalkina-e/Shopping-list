@@ -31,7 +31,7 @@ function App() {
   ])
 
   function deleteItem(id) {
-    const filteredItem = items.filter(item => item.id != id)
+    const filteredItem = items.filter(item => item.id !== id)
     setItems(filteredItem)
   }
 
